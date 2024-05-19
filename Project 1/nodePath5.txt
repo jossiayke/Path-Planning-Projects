@@ -1,0 +1,72 @@
+The elements are being stored column-wise, i.e. for this state 1 6 2 3 9 5 7 4 0 10 11 8 13 14 15 12
+the fifteen puzzle state is: 
+1 2 3 4 
+5 6 7 8 
+9 10 11 12 
+13 14 15 0 
+The path of the nodes from start to finish is shown below as a string matrices, 0th - 15th number 
+
+<< STEP 0 >> 
+[[ 1  6  2  3]
+ [ 9  5  7  4]
+ [ 0 10 11  8]
+ [13 14 15 12]]
+
+
+<< STEP 1 >> 
+[[ 1  6  2  3]
+ [ 0  5  7  4]
+ [ 9 10 11  8]
+ [13 14 15 12]]
+
+
+<< STEP 2 >> 
+[[ 1  6  2  3]
+ [ 5  0  7  4]
+ [ 9 10 11  8]
+ [13 14 15 12]]
+
+
+<< STEP 3 >> 
+[[ 1  0  2  3]
+ [ 5  6  7  4]
+ [ 9 10 11  8]
+ [13 14 15 12]]
+
+
+<< STEP 4 >> 
+[[ 1  2  0  3]
+ [ 5  6  7  4]
+ [ 9 10 11  8]
+ [13 14 15 12]]
+
+
+<< STEP 5 >> 
+[[ 1  2  3  0]
+ [ 5  6  7  4]
+ [ 9 10 11  8]
+ [13 14 15 12]]
+
+
+<< STEP 6 >> 
+[[ 1  2  3  4]
+ [ 5  6  7  0]
+ [ 9 10 11  8]
+ [13 14 15 12]]
+
+
+<< STEP 7 >> 
+[[ 1  2  3  4]
+ [ 5  6  7  8]
+ [ 9 10 11  0]
+ [13 14 15 12]]
+
+
+<< STEP 8 >> 
+[[ 1  2  3  4]
+ [ 5  6  7  8]
+ [ 9 10 11 12]
+ [13 14 15  0]]
+
+
+         CONGRATULAIONS!!! YOU'VE REACHED THE END OF 15 PUZZLE GAME!!!            
